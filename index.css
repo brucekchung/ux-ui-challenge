@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: #B8D8D8;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  border: 1px solid black;
+  min-height: 100vh;
+}
+
+.right {
+  width: 50%;
+  min-height: 100vh;
+  border: 1px solid black;
+}
+
+.site-icon {
+  background-image: url('assets/health-icon.png');
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  margin: 15px;
+}
+
+.user-img {
+  background-image: url('assets/user-img.png');
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  margin: 15px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: #B8D8D8;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.6em;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar h3 {
+  font-size: 1.6em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cal-image {
+  background-image: url('assets/cal.png');
+  background-size: cover;
+  height: 250px;
+  width: 90%;
+  margin: 10px;
+}
+
+.bottom {
+  background-color: #4F6367;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.title-wrap h2 {
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.title-wrap .date {
+  font-weight: normal;
+}
+
+.hike {
+  width: 60%;
+  display: inline-block;
+}
+
+.hike li {
+  margin: 15px 15px 20px 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.hike span {
+  margin-right: 15px;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.map {
+  background-image: url('assets/map2.png');
+  background-size: cover;
+  height: 130px;
+  width: 34%;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+.mile {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.mile ul {
+  width: 60%;
+  display: inline-block;
+  color: white;
+}
+
+.mile li {
+  margin: 0 0 15px 40px;
+}
+
+.mile h4 {
+  font-weight: bold;
+}
+
+.mile span {
+  float: right;
+  margin-right: 40px;
+}
+
+.pace {
+  color: white;
+  width: 40%;
+}
+
+.pace-chart {
+  margin-top: 15px;
+  background-image: url('assets/pace.png');
+  background-size: cover;
+  height: 120px;
+  width: 90%;
+}
+
+.right nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border: 2px solid #4F6367;
+  background: #B8D8D8;
+}
+
+nav button {
+  width: 25%;
+  height: 60px;
+  background: #B8D8D8;
+  border: none;
+  border-right: 2px solid #4F6367;
+}
+
+nav .home .icon {
+  background-image: url('assets/home.png');
+  background-size: cover;
+}
+nav .cal .icon {
+  background-image: url('assets/cal2.png');
+  background-size: cover;
+}
+nav .edit .icon {
+  background-image: url('assets/edit.png');
+  background-size: cover;
+}
+nav .prefs .icon {
+  background-image: url('assets/pref.png');
+  background-size: cover;
+}
+
+nav .icon {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 650px) {
+  body {
+    background-color: white;
+    flex-wrap: wrap;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  header .user-img {
+    display: none;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+}
+
