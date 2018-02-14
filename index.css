@@ -10,14 +10,12 @@ body {
 
 .left {
   width: 50%;
-  border: 1px solid black;
   min-height: 100vh;
 }
 
 .right {
   width: 50%;
   min-height: 100vh;
-  border: 1px solid black;
 }
 
 .site-icon {
