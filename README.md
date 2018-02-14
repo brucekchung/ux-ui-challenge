@@ -6,4 +6,4 @@ The  handed out at 1pm, and we had 2 hours to build it.
 
 ##COMP
 
-![original comp](./assets/UI-UX-Design-Challenge.pdf)
+![original comp](assets/UI-UX-Design-Challenge.pdf)
